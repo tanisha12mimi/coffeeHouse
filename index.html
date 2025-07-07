@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Coffee House</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Script.js">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">
+            Coffee<span>House</span> 
+        </a>
+            <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+            <div class="content">
+                <h3>Welcome to</h3>
+                <h1>Coffee <span>House</span></h1>
+                <h4>Your perfect place for a coffee break.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo odit aspernatur consequatur iste unde assumenda rationeLorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem autem aliquid a commodi natus soluta. Quo nihil accusantium libero modi.
+    
+                </p>
+                <a href="menu" class="btn">Explore Menu</a>
+           
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="container1">
+            <h1 class="heading">About <span>Us</span></h1>
+            <p id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero mollitia deserunt voluptatibus earum...  
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni accusantium provident atque ratione voluptas nemo impedit magnam distinctio ex, recusandae sunt, esse aut harum voluptatibus? Nemo alias aliquam cumque dignissimos tenetur debitis asperiores accusamus quam quae porro. Totam iure sint illo cumque esse. Quod harum nihil vel, rem eaque voluptate maiores aliquam autem quasi maxime asperiores minima expedita animi. Optio, obcaecati rem deleniti consequatur facere ut repellat? Repellendus accusantium inventore corporis ipsam, at voluptate praesentium eligendi, officiis illo earum nam consequatur mollitia molestiae fugit eaque debitis, harum laboriosam? Unde voluptatum dolores amet officia dicta vel distinctio non fugiat recusandae facilis possimus laboriosam in reprehenderit placeat, nobis inventore odit ut sapiente aspernatur! Dolores quasi consectetur distinctio quod aut. Nostrum iure possimus alias, reiciendis commodi aspernatur esse blanditiis accusamus repudiandae iste sequi fugit ad suscipit. Ad facere odio sed quos eligendi magni eveniet, mollitia illo! Possimus ea dolore aut esse cupiditate, fugit qui perferendis ipsa laboriosam delectus quam est eaque, maxime nobis quas veritatis corporis provident! .</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="coffee" id="menu">
+        <h1 class="heading">Our <span>Menu</span></h1>    
+        <div class="menu-tabs">
+            <button class="menu-tab active" data-tab="hot">Hot Coffees</button>
+            <button class="menu-tab" data-tab="cold">Cold Coffees</button>
+            <button class="menu-tab" data-tab="flavored">Flavored Coffees</button>
+            <button class="menu-tab" data-tab="snacks">Cakes</button>
+        </div>
+<br><br><br><br><br><br><br><br><br><br>
+        <!-- Hot Coffees -->
+        <div id="hot" class="menu-content active">
+            <div class="menu-section">
+                <h2 class="menu-title">
+                    <div class="coffee-beans bean-1"></div>
+                    Hot Coffees
+                </h2>
+                <div class="coffee-list">
+
+                    <div class="coffee-item"><div class="coffee-icon"></div><span class="coffee-name">Americano      </span></div>
+                    <div class="coffee-item"><div class="coffee-icon"></div><span class="coffee-name">Latte          </span></div>
+                    <div class="coffee-item"><div class="coffee-icon"></div><span class="coffee-name">Cappuccino     </span></div>
+                    <div class="coffee-item"><div class="coffee-icon"></div><span class="coffee-name">Mocha        </span></div>
+                    
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+
+        <!-- Cold Coffees -->
+        <div id="cold" class="menu-content">
+            <div class="menu-section">
+                <h2 class="menu-title">
+                    <div class="coffee-beans bean-2"></div>
+                    Cold Coffees
+                </h2>
+                <div class="coffee-list">
+                    <div class="coffee-item"><div class="coffee-icon"></div><span class="coffee-name">Iced Coffee</span></div>
+                    <div class="coffee-item"><div class="coffee-icon"></div><span class="coffee-name">Cold Brew</span></div>
+                    <div class="coffee-item"><div class="coffee-icon"></div><span class="coffee-name">Iced Latte</span></div>
+                    <div class="coffee-item"><div class="coffee-icon"></div><span class="coffee-name">Frappuccino</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Flavored Coffees -->
+        <div id="flavored" class="menu-content">
+            <div class="menu-section">
+                <h2 class="menu-title">Flavored Coffees</h2>
+                <div class="coffee-list">
+                    <div class="coffee-item"><div class="coffee-icon"></div><span class="coffee-name">Vanilla Latte</span></div>
+                    <div class="coffee-item"><div class="coffee-icon"></div><span class="coffee-name">Caramel Macchiato</span></div>
+                    <div class="coffee-item"><div class="coffee-icon"></div><span class="coffee-name">Hazelnut Coffee</span></div>
+                    <div class="coffee-item"><div class="coffee-icon"></div><span class="coffee-name">Pumpkin Spice Latte</span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Snacks -->
+        <div id="snacks" class="menu-content">
+            <div class="menu-section">
+                <h2 class="menu-title">Cakes</h2>
+                <div class="coffee-list">
+                    <div class="coffee-item"><div class="coffee-icon"></div><span class="coffee-name">Croissants</span></div>
+                    <div class="coffee-item"><div class="coffee-icon"></div><span class="coffee-name">Pastries</span></div>
+                    <div class="coffee-item"><div class="coffee-icon"></div><span class="coffee-name">Cakes</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <h1 class="heading">Customer <span>Reviews</span></h1>
+        <div class="review-container">
+            <div class="box">
+                <i class='bxr  bx-user-circle'  ></i> 
+                <h2>John Doe</h2>
+               <p>"Best coffee in town! The ambiance is perfect for a relaxing afternoon."Lorem ipsum dolor sit, amet consectetur adipisicing elit.Quae adipisci doloremque reiciendis eveniet temporibus animi blanditiis beatae sunt enim laborum vitae, impedit molestiae veniam, </p>
+               <a href="#" class="btn1">Read More</a>
+                
+            </div>
+            <div class="box">
+                <i class='bxr  bx-user-circle'  ></i> 
+                <h2>Jan Smith</h2>
+                <p>"I love their flavored coffees, especially the caramel macchiato!"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis rerum illo dolorem exercitationem quibusdam excepturi nulla suscipit doloremque dolore? Veniam quo magnam ratione f</p>
+                 <a href="#" class="btn1">Read More</a>
+                
+               
+            </div>
+            <div class="box">
+                <i class='bxr  bx-user-circle'  ></i> 
+                <h2>Aria Deo</h2>
+                <p>"Great place to meet friends and enjoy a cup of coffee.  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis distinctio tempora accusamus impedit, inventore, velit tenetur ipsum officiis, quas amet deleniti ipsa assumenda in soluta</p>
+                <a href="#" class="btn1">Read More</a>
+                
+            </div>
+
+        <div class="box">
+                <i class='bxr  bx-user-circle'  ></i> 
+                <h2>Emily</h2>
+                <p>"Great place to meet friends and enjoy a cup of coffee.  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis distinctio tempora accusamus impedit, inventore, velit tenetur ipsum officiis, quas amet deleniti ipsa assumenda in soluta</p>
+                <a href="#" class="btn1">Read More</a>
+                
+            </div>
+
+
+
+
+        </div>
+
+
+        <!-- <div id ="color">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. At esse voluptas repudiandae doloremque non dolores totam maiores fuga, dolor laborum placeat quisquam sit vero alias ratione deserunt porro reiciendis aut deleniti blanditiis error vel doloribus incidunt vitae? Nihil, iste incidunt.
+
+        </div> -->
+
+
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact <span>Us</span></h1>
+        
+        <div class="contact-form">
+            <form  name="submit-to-google-sheet">
+                <input type="text"  name="Name" placeholder="Your Name" required>
+                <input type="email"  name="Email" placeholder="Your Email" required>
+                <textarea  name="Message" placeholder="Your Message" required></textarea>
+                <button id="btn" type="submit">Submit</button>
+            </form>
+            <span id="msg"> </span>
+
+        </div>
+
+</section>
+
+<!-- <form name="submit-to-google-sheet">
+  <input name="email" type="email" placeholder="Email" required>
+  <button type="submit">Send</button>
+</form> -->
+<footer>
+     
+              
+                <div class="social">
+                    <a href="#">  <i class="fa-brands fa-facebook fa-2xl" style="color: #f5eeee;"></i></a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram fa-2xl " style="color: #f2eded;"></i></a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-twitter fa-2xl" style="color: #f7f3f3;"></i></a>
+
+
+                 </div>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+
+                    <li>
+                        <a href="#">Products</a>
+                    </li>
+
+                    <li>
+                        <a href="#">About us</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contacts</a>
+                    </li>
+
+
+                    <li>
+                        <a href="#">Privacy Policy</a>
+                    </li>
+                </ul>
+
+                
+
+                </div>
+  
+        
+            </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.menu-tab');
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    tabs.forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+
+                    document.querySelectorAll('.menu-content').forEach(content => {
+                        content.classList.remove('active');
+                    });
+
+                    const tabId = this.getAttribute('data-tab');
+                    document.getElementById(tabId).classList.add('active');
+                });
+            });
+
+});
+
+ 
+    </script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw-86PG1QF4gG-JmNx6yK_9F_fApvnkpQ1Y_9vTmmxCu8XI9JbkjbrjjJ92L9iaWsk3oA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+
+
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+
+  // Show the message after 0 milliseconds (asynchronously)
+  setTimeout(() => {
+    msg.innerHTML = "Thank you for your message! ";
+  }, 0);
+
+  // Clear the message after 7 seconds
+  setTimeout(() => {
+    msg.innerHTML = "";
+  }, 7000);
+
+  // Send the form data
+  fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+    .then(response => {
+      form.reset(); // Reset the form only on success
+    })
+    .catch(error => {
+      console.error('Error!', error.message);
+      msg.innerHTML = "There was an error submitting the form. Please try again.";
+    });
+});
+
+
+
+//   form.addEventListener('submit', e => {
+//     e.preventDefault()
+//     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+//       .then(response =>{
+//         msg.innerHTML = "Thank you for your message! We'll get back to you soon."
+//       })
+//       setTimeout(function(){
+//         msg.innerHTML = "";
+//       }, 7000)
+//       form.reset()
+
+//       .catch(error => console.error('Error!', error.message))
+//   })
+</script>
+
+</body>
+</html>
