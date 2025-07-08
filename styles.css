@@ -110,8 +110,7 @@ width: 46px;         /* Increase width */
 }
 section{
     min-height: 100vh;
-    padding: 10rem 9% 10rem ;
-    margin-bottom: -2.5rem; /* Adds space between sections */
+    /* Adds space between sections */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -127,6 +126,8 @@ section{
     background-size: cover;
     width: 50%;
     min-height: 100vh;
+    padding: 10rem 9% 10rem ;
+    margin-bottom: 1rem; 
     
 }
  .content h3 {
@@ -151,7 +152,7 @@ section{
 .home .content p {
    font-size: 2rem;
    font-weight: 500;
-   
+
   
    
 }
@@ -179,6 +180,7 @@ section{
     justify-content: center;
     background:url(assets/about.jpg) no-repeat ;
     background-size: cover;
+    margin-top: 0.5rem;
      padding: 10rem 9% 10rem;
      margin-bottom: 0.9rem; 
     
